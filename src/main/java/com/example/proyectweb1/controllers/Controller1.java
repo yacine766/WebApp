@@ -17,6 +17,10 @@ public String getText1(){
 
         return "page 1 text2";
     }
-    
+    @GetMapping("/tex3")
+    public String getText3(){
+
+        return "page 1 text3";
+    }
 
 }
