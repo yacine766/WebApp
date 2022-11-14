@@ -22,5 +22,6 @@ public String getText1(){
 
         return "page 1 text3";
     }
+    //Añadido en el hub
 
 }
