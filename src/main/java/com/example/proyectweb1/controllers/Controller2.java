@@ -4,12 +4,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/page1")
-public class Controller1 {
-    @GetMapping("/tex1")
-public String getText1(){
+public class Controller2 {
+    @RestController
+    @RequestMapping("/page2")
+    public class Controller1 {
+        @GetMapping("/tex1")
+        public String getText1(){
 
-    return "page 1 text1";
-}
-}
+            return "page 2 text1";
+        }
+
+}}
