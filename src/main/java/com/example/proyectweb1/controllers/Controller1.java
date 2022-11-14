@@ -12,4 +12,11 @@ public String getText1(){
 
     return "page 1 text1";
 }
+    @GetMapping("/tex2")
+    public String getText2(){
+
+        return "page 1 text2";
+    }
+    
+
 }
