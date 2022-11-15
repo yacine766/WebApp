@@ -19,6 +19,11 @@ public class Controller3 {
 
         return "page 3 text2";
     }
+    @GetMapping("/tex3")
+    public String getText3(){
+
+        return "page 3 text3";
+    }
 
     }
 
