@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller3 {
 
+
     @RequestMapping("/page3")
 
         @GetMapping("/tex1")
@@ -13,6 +14,11 @@ public class Controller3 {
 
             return "page 3 text1";
         }
+    @GetMapping("/tex2")
+    public String getText2(){
+
+        return "page 3 text2";
+    }
 
     }
 
