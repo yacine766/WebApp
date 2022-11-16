@@ -27,7 +27,7 @@ public class Controller3 {
       @GetMapping("/tex4")
     public String getText4(){
 
-        return "page 3 text4";
+        return "page 3 text4 modificado por main local";
     }
 
 
