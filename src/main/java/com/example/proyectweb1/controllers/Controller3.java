@@ -29,6 +29,11 @@ public class Controller3 {
 
         return "page 3 text4 modificado por main local";
     }
+    @GetMapping("/tex5")
+    public String getText5(){
+
+        return "page 3 text 5 modificado por programador1";
+    }
 
 
     }
